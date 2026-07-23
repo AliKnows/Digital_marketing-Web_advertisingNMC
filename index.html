@@ -1,102 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hub de Proyectos</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <title>DUMATH - Videojuego Educativo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Top Header (Estilo Cuenta/Login) -->
-    <header class="top-header">
-        <div class="logo-placeholder">[LOGO AQUI]</div>
-        <div class="header-actions">
-            <a href="#contacto" class="btn-outline">Soporte</a>
-            <a href="#contacto" class="btn-primary">Contacto</a>
-        </div>
+    <div class="bg-slideshow"></div>
+    <!-- Top Logo -->
+    <header class="top-logo">
+        <img src="assets/LOGO-remo.png" alt="DUMATH Logo">
     </header>
 
-    <!-- Navegación Principal (Categorías horizontales) -->
-    <nav class="main-nav">
-        <ul>
-            <li class="active"><a href="#destacados">⭐ Destacados</a></li>
-            <li><a href="#juegos">🎮 Juegos</a></li>
-            <li><a href="#apps">📱 Apps</a></li>
-            <li><a href="#proximamente">🚀 Próximamente</a></li>
-        </ul>
-    </nav>
+    <!-- Main Content Area -->
+    <main class="main-container">
 
-    <!-- Banner Promocional (Hero más directo) -->
-    <section class="promo-banner">
-        <div class="banner-content">
-            <h2>NUEVO LANZAMIENTO</h2>
-            <p>Prueba ahora la versión Beta de nuestro último proyecto interactivo.</p>
-            <a href="#" class="btn-primary">Ver Proyecto</a>
-        </div>
-    </section>
+        <!-- Central Zone Unified & More Horizontal -->
+        <section class="central-zone">
 
-    <!-- Grilla de Juegos/Proyectos (Estilo Casino) -->
-    <section class="game-grid-section">
-        <div class="section-header">
-            <h3>Juegos Populares</h3>
-            <a href="#" class="view-all">Ver todos ></a>
-        </div>
-        
-        <div class="game-grid">
-            <!-- Tarjeta de Juego 1 -->
-            <a href="#" class="game-tile">
-                <div class="game-image">[IMG PROYECTO 1]</div>
-                <div class="game-overlay">
-                    <span class="btn-play">▶ Jugar</span>
-                </div>
-            </a>
-            <!-- Tarjeta de Juego 2 -->
-            <a href="#" class="game-tile">
-                <div class="game-image">[IMG PROYECTO 2]</div>
-                <div class="game-overlay">
-                    <span class="btn-play">Descargar</span>
-                </div>
-            </a>
-            <!-- Tarjeta de Juego 3 -->
-            <a href="#" class="game-tile">
-                <div class="game-image">[IMG PROYECTO 3]</div>
-                <div class="game-overlay">
-                    <span class="btn-play">▶ Jugar</span>
-                </div>
-            </a>
-            <!-- Tarjeta de Juego 4 -->
-            <a href="#" class="game-tile">
-                <div class="game-image">[IMG PROYECTO 4]</div>
-                <div class="game-overlay">
-                    <span class="btn-play">Detalles</span>
-                </div>
-            </a>
-            <!-- Tarjeta de Juego 5 -->
-            <a href="#" class="game-tile">
-                <div class="game-image">[IMG PROYECTO 5]</div>
-                <div class="game-overlay">
-                    <span class="btn-play">▶ Jugar</span>
-                </div>
-            </a>
-            <!-- Tarjeta de Juego 6 -->
-            <a href="#" class="game-tile">
-                <div class="game-image">[IMG PROYECTO 6]</div>
-                <div class="game-overlay">
-                    <span class="btn-play">▶ Jugar</span>
-                </div>
-            </a>
-        </div>
-    </section>
+            <div class="intro-section">
+                <h1>APRENDE JUGANDO, JUEGA APRENDIENDO</h1>
 
-    <!-- Footer Simple y Directo -->
+                <div class="info-section">
+                    <p class="body-text">DUMATH es un videojuego RPG para aprender matemáticas educativo e inmersivo,
+                        diseñado
+                        como una metodología complementaria de aprendizaje para estudiantes nativos digitales de
+                        educación
+                        básica en
+                        el Perú, orientado a incrementar la motivación y potenciar el alto rendimiento académico.</p>
+                    <p class="body-text">El videojuego integra gamificación, narrativa inmersiva y retos matemáticos
+                        alineados a
+                        las competencias establecidas por el Ministerio de Educación del Perú (MINEDU).</p>
+                </div>
+                <div class="action-buttons-hero">
+                    <button class="btn-register">¡Juega Ahora!</button>
+                    <a href="#" class="btn-steam">
+                        <img src="assets/tiendas digitales.png" alt="Descargar en Steam" class="steam-icon">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Comic Images -->
+            <div class="comic-gallery">
+                <img src="assets/BackgroundDUMATH.jpg" alt="Comic Scene 1" class="comic-img">
+                <img src="assets/2BackgroundDUMATH.jpg" alt="Comic Scene 2" class="comic-img">
+                <img src="assets/3BackgroundDUMATH.jpg" alt="Comic Scene 3" class="comic-img">
+                <img src="assets/4BackgroundDUMATH.jpg" alt="Comic Scene 4" class="comic-img">
+            </div>
+
+            <div class="info-section">
+
+                <p class="highlight-text">Videojuego educativo de matemáticas diseñado como metodología complementaria
+                    para estudiantes nativos digitales de educación básica en el Perú para aumentar la motivación y
+                    mejorar el alto rendimiento académico.</p>
+            </div>
+
+            <!-- Partners -->
+            <div class="partners-section">
+                <h2>Partners</h2>
+                <div class="partners-logos">
+                    <img src="assets/partnert1.png" alt="Partner 1">
+                    <img src="assets/partnert2.png" alt="Partner 2">
+                    <img src="assets/partnert3.png" alt="Partner 3">
+                    <img src="assets/partnert4.png" alt="Partner 4">
+                </div>
+            </div>
+
+            <!-- Call to action -->
+            <div class="cta-container">
+                <h2>¿Listo para la aventura?</h2>
+                <button class="btn-register">¡Regístrate Ahora!</button>
+                <p class="cta-sub">Únete a nuestra comunidad.</p>
+            </div>
+
+        </section>
+
+    </main>
+
     <footer class="simple-footer">
-        <div class="footer-links">
-            <a href="#">Términos y Condiciones</a> | 
-            <a href="#">Política de Privacidad</a> | 
-            <a href="#">Contacto</a>
-        </div>
-        <p>© 2026 Estudio Tech. Todos los derechos reservados.</p>
+        <p>© 2026 NeoMechCode Cusco, Perú. Todos los derechos reservados.</p>
     </footer>
 </body>
+
 </html>
