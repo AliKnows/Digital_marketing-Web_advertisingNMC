@@ -76,11 +76,11 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 3rem 0 1rem;
+    padding: 5rem 0 2rem;
 }
 
 .top-logo img {
-    max-height: 150px;
+    max-height: 450px;
 }
 
 /* Main Container */
